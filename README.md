@@ -2,6 +2,17 @@
 sample app using APIKit, RxSwift
 
 ## Library instration via Carthage
+### Cartfile
+In the project folder, make `Cartfile` like:
+
+```
+github "ishkawa/APIKit" ~> 3.1
+github "ReactiveX/RxSwift" ~> 4.0
+```
+
+Then, `$ carthage update`
+
+### Xcode settings
 First, move to project, [General] tab.
 
 In [Link Binary With Libraries], add needed frameworks.
@@ -40,6 +51,6 @@ If you need them in unit tests, Unit test target require same settings.
 - [Carthage (Github)](https://github.com/Carthage/Carthage/)
 
 ## Environment
-- Xcode9
-- Swift4
-- iOS11
+- Xcode 9
+- Swift 4
+- iOS 11
